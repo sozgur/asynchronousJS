@@ -1,0 +1,39 @@
+body {
+    background: green;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #444;
+}
+
+button:active,
+button:focus {
+    outline: none;
+}
+
+.card-button {
+    display: none;
+    color: white;
+    background: #404040;
+    text-align: center;
+    width: 135px;
+    height: 45px;
+    border-radius: 15px;
+    border: none;
+}
+
+.card-content {
+    margin: 3% 45%;
+}
+
+#cards {
+    margin-top: 80px;
+}
+
+#cards img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
